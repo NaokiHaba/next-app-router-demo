@@ -31,7 +31,7 @@ export default async function Page() {
     const notes = await getNotes();
     return (
         <main className="mx-2 sm:mx-4 relative">
-            <Link href="/notes"
+            <Link href="/notes/new"
                   className="absolute top-0 right-2 z-10 text-white bg-pink-500 hover:bg-pink-700 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2">
                 <svg aria-hidden="true" className="w-6 h-6" fill="currentColor" viewBox="4 4 8 8"
                      xmlns="http://www.w3.org/2000/svg">
